@@ -27,13 +27,13 @@ title: Dossier d'étude et de choix des solutions
 * Rechercher quel paquet contient un fichier donné : `apt-file search Nom_du_Fichier` ou `dpkg -S Nom_du_Fichier`
             * si le paquet n'est pas installé. : https://www.debian.org/distrib/packages ou `apt-get install Nom_Du_Paquet -s`
 ### Réseau
-* Pouvoir se connecter sur une autre machine avec `ssh`: 
+* Pouvoir se connecter sur une autre machine avec `ssh`: `ssh [identfiant]@[ip]` (ex: ssh aujault@192.168.127.34)
 * Permettre à une autre machine de se connecter sur la vôtre :
 * Installer un serveur web capable de lire vos pages perso (`userdir`) :
 
 ### Sauvegardes
 * Faire une archive d'un répertoire (et de ses sous répertoires) : `tar -czvf monArchive.tar.gz répertoire`
-* Copier l'archive sur une clé USB :
+* Copier l'archive sur une clé USB : 
 * Copier l'archive via `scp` : 
 
 ### Services 
@@ -43,4 +43,8 @@ title: Dossier d'étude et de choix des solutions
 
 ### Divers
 
-* restreindre les droits de "stagiaire" : 
+* restreindre les droits de "stagiaire" : useradd -m stagiaire
+
+
+
+
