@@ -55,5 +55,5 @@
 ## Voici les diférentes possibilitées pour installer les différentes application sur votre ordinateur
 
 * Dans un terminal : apt-get install Nom_Du_Paquet
-* Sur un environnement de bureau : Télécharger un fichier .deb et utiliser la commande `dpkg -i Nom_Du_Fichier.deb.`
+* Sur un environnement de bureau : Télécharger un fichier .deb sur Internet et utiliser la commande `dpkg -i Nom_Du_Fichier.deb.`
 * il est aussi possible d'utiliser un gestionnaire de paquet pour éviter d'entrer des commandes dans le terminal
