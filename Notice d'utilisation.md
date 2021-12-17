@@ -24,24 +24,36 @@
 # Le début de l'installation vas alors commencer !
 
 ## Installation de debian
-* à vous de choisir l'installation graphique ou non ( il n'y a aucun changement pour le suite de l'installation, mais vous installe le gestionnaire de fenêtre __GNOME__ si vous choisissez la première option )
+
+* à vous de choisir l'installation graphique ou non ( il n'y a aucun changement pour le suite de l'installation, mais vous installez le gestionnaire de fenêtre __GNOME__ si vous choisissez la première option )
 * Utiliser les flèches de votre clavier afin de sélectionner la langue de votre choix 
 * pareil pour la géolocalisation et la disposition du clavier
 * Entrez le nom le nom de la machine. C'est le nom qui apparaît lors des accès réseaux à ce PC.
 * De-même pour le groupe de travail ou domaine
 # paramètrage des utilisateurs
+
 *  Entrez et valider le mot de passe pour l'utilisateur root* (Le root : c'est l'utilisateur administrateur qui peut modifier le système)
 * puis on créé l'utilisateur standard avec le nom, choisir le nom que vous désirez et indiquer par la suite le mot de passe de votre choix
 # Partitionnement du disque
+
 * Sélectionner comme type de partition __Assisté - le plus grand espace disponible__
 * Sélectionner le disque de votre choix où installer Linux
 * Choisisser si vous voulez tout dans une seule partition ou séparer le /home. ( __tout dans une seule partition__ dans notre cas )
 # L'installation du système vas alors commencer
+
 * Une fois l'installation terminé, choisissez __non__ a la question : "faut-il analyser un autre CD ou DVD ?"
 * Choisissez l'emplacement géographique (france)
 * Ensuite on choisit le miroir Debian, c'est le serveur de dépôt d'où les paquets seront téléchargés (Vous pouvez laisser celui par défaut)
 * Indiquer si la connexion doit s'effectuer à travers un proxy. (Dans notre cas entrez : https://[[utilisateur][:mot-de-passe]@]193.49.118.36:8080)
 # La configuration de l'outil de gestion des paquets vas alors ce faire.
+
 * choisissez si vous voulez participer à l'étude sur l'utilisation des paquets ( ceci n'as aucun impacte sur l'installation )
 * Enfin, sélectionnez les différent environnement de bureau souhait ( GNOME et XFCE ), cliquez sur __continuer__ puis sélectionnez le gestionaire graphique de session par défault
-# Votre ordinateur vas alors redémarrer et vous pourrez sélectionner le boot Debian, puis vous connecter à votre session
+# Votre ordinateur vas alors redémarrer et vous pourrez sélectionner le boot Debian, puis vous connecter à votre session.
+
+## Installation des différents paquets nécessaires
+# Voici les diférentes possibilitées pour installer les différentes application sur votre ordinateur
+
+* Dans un terminal : apt-get install Nom_Du_Paquet
+* Sur un environnement de bureau : Télécharger un fichier .deb et utiliser la commande `dpkg -i Nom_Du_Fichier.deb.`
+* il est aussi possible d'utiliser un gestionnaire de paquet pour éviter d'entrer des commandes dans le terminal
